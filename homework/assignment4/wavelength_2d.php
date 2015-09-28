@@ -49,33 +49,33 @@
 					case 2:
 						switch($rows[$i][$j-1])
 						{						
-							case 3:
-								$rows[$i][$j] = "Radio";
-								break;
+							case 3:								
 							case 2:
-								$rows[$i][$j] = "Microwave";
-								break;
 							case 1:
 							case 0:
 							case -1:
+								$rows[$i][$j] = "Radio";
+								break;
 							case -2:
 							case -3:
+							case -4:
+								$rows[$i][$j] = "Microwave";
+								break;
+							case -5:
 								$rows[$i][$j] = "Infrared";
 								break;
-							case -4:
-							case -5:
 							case -6:
-								$rows[$i][$j] = "Visiable";
-								break;
 							case -7:
-								$rows[$i][$j] = "Ultraviolet";
+								$rows[$i][$j] = "Visiable";
 								break;
 							case -8:
 							case -9:
+								$rows[$i][$j] = "Ultraviolet";
+								break;
 							case -10:
+							case -11:
 								$rows[$i][$j] = "X-Ray";
 								break;
-							case -11:
 							case -12:
 								$rows[$i][$j] = "Gamma Ray";							
 								break;
