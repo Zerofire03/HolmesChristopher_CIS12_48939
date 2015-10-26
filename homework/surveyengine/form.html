@@ -1,0 +1,28 @@
+<!DOCTYPE html Public "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Survey Engine</title>
+		<style type="text/css" title="text/css" media="all">
+		label
+		{
+			font-weight: bold;
+			color: #300ACC;
+		}
+		</style>
+	</head>
+	<body>
+		<form action="handle_form.php" method="post">
+		<fieldset><legend>Answer the questions below:</legend>
+			<p>1- What is your favorite type of movie?</p>
+			<p><input type="radio" name="movie" value="s" /> SciFy<input type="radio" name="movie" value="d" /> Drama<input type="radio" name="movie" value="r" /> Romance<input type="radio" name="movie" value="a" /> Action</p>
+			<p>2- What is your favorite color?</p>
+			<p><input type="radio" name="color" value="r" /> Red<input type="radio" name="color" value="g" /> Green<input type="radio" name="color" value="b" /> Blue<input type="radio" name="color" value="y" /> Yellow</p>
+			<p>3- What is the make of your favorite car?</p>
+			<p><input type="radio" name="car" value="f" /> Ford<input type="radio" name="car" value="g" /> GMC<input type="radio" name="car" value="c" /> Chrysler<input type="radio" name="car" value="t" /> Tesla</p>		
+			<p>4- What is your favorite sport?</p>
+			<p><input type="radio" name="sport" value="b" /> Baseball<input type="radio" name="sport" value="f" /> Football<input type="radio" name="sport" value="h" /> Hockey<input type="radio" name="sport" value="t" /> Tennis</p>				
+		</fieldset>
+		<p align="center"><input type="submit" name="submit" value="Submit My Answers" /></p>		
+	</body>
+</html>
